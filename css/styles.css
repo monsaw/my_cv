@@ -1,11 +1,14 @@
-
 .first-session{
 position: relative;
 
+
+
+
 }
+
 .pix{
 position: absolute;
-right: 0;
+right: 20px;
 top:0;
 margin-bottom: 20px;
 border-radius: 100%;
@@ -15,15 +18,12 @@ border-radius: 100%;
 h1{
   font-size: 2rem;
   font-family: sans-serif;
-  margin-left:10px;
 }
 h5{
-  font-size: 0.55rem;
-  margin-left:10px;
+  font-size: 0.8rem;
 }
 hr {
 margin-top: 50px;
-width: 100%;
 
 }
 p{
@@ -33,13 +33,11 @@ p{
   font-family: sans-serif;
 
 }
-h4{
++h4{
   margin-top: 40px;
   margin-bottom: 10px;
-  margin-left: 10px;
   font-family:sans-serif;
   color: blue;
-
 }
 ul{
   position: absolute;
@@ -52,6 +50,7 @@ display: inline;
 margin: 9px 2px 2px 2px;
 font-size: 12px;
 }
+
 a{
   text-decoration:none;
 
@@ -63,35 +62,35 @@ a:hover{
   position: relative;
 }
 .new{
- display: inline;
-
   position: absolute;
-top:20px;
-left:600px;
-width: 100%;
+  display: inline-block;
+  right:0 ;
+  top:40px;
+  padding-top: 0;
+  margin-top : 0 ;
+  width: 100%;
+
+
 }
+
 .new-wis{
-  display: inline;
-
-   position: absolute;
- margin-top:0;
- left:600px;
- width: 100%;
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  top:0;
+  padding-top: 0;
+  margin-top : 0 ;
+  width: 100%;
 
 }
-
-.mail{
-
-  margin-left: 500px;
-}
-
 .footer{
-  margin-top: 40px;
-
-  padding: 30px;
-  position: relative;
-  width:94%
+  background-color: black;
+  padding: 40px;
 }
+.mail{
+  text-align: center;
+}
+
 .yellow{
   color: yellow;
 }
